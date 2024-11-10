@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Title from './components/title/title';
 import ConnectButton from './components/connect_button/connectButton';
@@ -30,14 +29,22 @@ function App() {
   }
 
   return (
-    <div class="container center-content">
-      <div class="text-center">
-    <Title/>
-    <MyWalletForm currentAddress={address}/>
-    <ConnectButton state={buttonState} requestToConnect = {runRequestToConnect} />
-    </div>
+    <div className="center-content">
+      <div className="title-container">
+        <Title />
+      </div>
+      <div className="form-button-container">
+        <div className="my-wallet-form">
+          <MyWalletForm currentAddress={address} />
+        </div>
+        <div className="connect-button">
+          <ConnectButton state={buttonState} requestToConnect={runRequestToConnect} />
+        </div>
+      </div>
     </div>
   );
+  
+  
 }
 
 export default App;
