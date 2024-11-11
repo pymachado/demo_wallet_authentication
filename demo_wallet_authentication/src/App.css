@@ -30,3 +30,10 @@
   flex: 1; /* Give ConnectButton 1x the space */
   max-width: 200px;
 }
+
+.set-button-form-container {
+  width: 100%;
+  max-width: 600px; /* Coincide con el ancho del contenedor de arriba */
+  border-top: 1px solid #ccc; /* Línea de 1px como separación */
+  padding-top: 20px; /* Opcional: agrega un poco de espacio adicional encima del contenido */
+}

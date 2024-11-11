@@ -15,7 +15,7 @@ async function requestToConnect () {
             throw(error);
         }
     }else {
-        alert("You need to install a Provider. Try with Metamask.");
+        alert("You need to install a Provider. Try with Metamask. https://metamask.io/download/");
     }
 }
 
