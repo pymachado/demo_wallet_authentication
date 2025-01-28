@@ -19,8 +19,6 @@ Description
 This script provides a function `requestToConnect`, written in JavaScript, that allows a web application to connect to a user's Ethereum wallet using the **ethers.js** library. Below is an explanation of its components:
 
 ---
-**root**
-./src/requireToConnect.js
 
 ### **Code Walkthrough**
 
