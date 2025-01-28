@@ -124,4 +124,3 @@ export default requestToConnect;
 
 ### **Dependencies**
 - **ethers.js**: A JavaScript library for blockchain interaction. Install it using:
--   ```
